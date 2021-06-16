@@ -9,3 +9,6 @@ function alerta() {
     alert('Login ou senha inválidos.');
   }
 }
+
+const botao = document.getElementById('botao');
+botao.addEventListener('click', alerta);
