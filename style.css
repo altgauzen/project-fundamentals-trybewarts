@@ -17,9 +17,33 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  border: 2px solid black;
+}
+
+#input-form {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
 
+#input-name {
+  width: 320px;
+  align-self: flex-start;
+}
+
+#input-lastname {
+  width: 320px;
+  align-self: flex-end;
+}
+
+#input-email {
+  width: 300px;
+}
+
+#house {
+  width: 300px;
 }
