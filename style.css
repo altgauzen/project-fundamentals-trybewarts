@@ -24,6 +24,7 @@ main {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
+  
 }
 
 #trybewarts-forms-logo {
@@ -33,11 +34,15 @@ main {
 #input-name {
   width: 320px;
   align-self: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #input-lastname {
   width: 320px;
   align-self: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #input-email {
@@ -46,4 +51,8 @@ main {
 
 #house {
   width: 300px;
+}
+
+#label-family {
+  display: flex;
 }
