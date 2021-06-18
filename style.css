@@ -17,8 +17,6 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-  /*esta borda é apoenas para visualizaçao do container*/
-  border: 2px solid black; 
 }
 
 #input-form {
@@ -55,4 +53,25 @@ main {
 
 #label-family {
   display: flex;
+}
+
+#div-family {
+  width: 49%;
+  background-color: rgb(50, 167, 145);
+}
+
+#div-content {
+  display: flex;
+  flex-flow: wrap;
+  width: 49%;
+  background-color: red;
+}
+
+.subject {
+  margin-left: 45px;
+}
+
+#div-rate {
+  display: flex;
+  flex-direction: row;
 }
