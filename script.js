@@ -12,3 +12,14 @@ function loginVerify() {
 
 const botao = document.getElementById('botao');
 botao.addEventListener('click', loginVerify);
+
+function checkedInput() {
+  if (document.getElementById('agreement').checked) {
+    document.getElementById('submit-btn').disabled = false;
+  } else {
+    document.getElementById('submit-btn').disabled = true;
+  }
+}
+
+const checkInput = document.getElementById('agreement');
+checkInput.addEventListener('change', checkedInput);
