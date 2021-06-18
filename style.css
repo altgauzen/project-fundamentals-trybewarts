@@ -17,7 +17,8 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-  border: 2px solid black;
+  /*esta borda é apoenas para visualizaçao do container*/
+  border: 2px solid black; 
 }
 
 #input-form {

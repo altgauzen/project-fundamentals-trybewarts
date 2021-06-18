@@ -1,4 +1,4 @@
-function alerta() {
+function loginVerify() {
   const emailInserido = document.getElementById('campoEmail').value;
   const senhaInserida = document.getElementById('campoSenha').value;
   const emailCerto = 'tryber@teste.com';
@@ -11,4 +11,4 @@ function alerta() {
 }
 
 const botao = document.getElementById('botao');
-botao.addEventListener('click', alerta);
+botao.addEventListener('click', loginVerify);
