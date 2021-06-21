@@ -23,3 +23,13 @@ function checkedInput() {
 
 const checkInput = document.getElementById('agreement');
 checkInput.addEventListener('change', checkedInput);
+
+let textImputed = document.getElementById('textarea');
+textImputed.addEventListener('keyup', countText);
+
+function countText() {
+  let counterInit = 500;
+  let counter = document.getElementById('counter');
+  let restantes = counterInit - textImputed.value.length;
+  counter.innerHTML = restantes;
+}
