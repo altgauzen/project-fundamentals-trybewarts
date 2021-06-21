@@ -24,12 +24,13 @@ function checkedInput() {
 const checkInput = document.getElementById('agreement');
 checkInput.addEventListener('change', checkedInput);
 
-let textImputed = document.getElementById('textarea');
-textImputed.addEventListener('keyup', countText);
+const textImputed = document.getElementById('textarea');
 
 function countText() {
-  let counterInit = 500;
-  let counter = document.getElementById('counter');
-  let restantes = counterInit - textImputed.value.length;
+  const counterInit = 500;
+  const counter = document.getElementById('counter');
+  const restantes = counterInit - textImputed.value.length;
   counter.innerHTML = restantes;
 }
+
+textImputed.addEventListener('keyup', countText);
