@@ -1,8 +1,20 @@
-### Termos de acordo
+# project-fundamentals-trybewarts
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+## Meus Comentários
+
+Este foi um projeto em dupla feito na Trybe no Módulo de Fundamentos onde colocamos em prática nossas habilidades de criação de formulários, responsividade e posicionamento de objetos na tela (HTML & CSS).
+
+Aprendí neste Projeto a: 
+ - Criar formulários em HTML;
+ - Utilizar CSS Flexbox para criar layouts flexíveis;
+ - Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
+ - Construir páginas que alteram o seu layout de acordo com a orientação da tela.
+
+
+Aproveitamento: 95.24% de aprovação pelos avaliadores da Trybe.
 
 ---
+
 
 # Boas vindas ao repositório do projeto Trybewarts Wizarding School! :mage:
 
